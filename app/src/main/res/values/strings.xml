@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">G Books</string>
+    <string name="select">Book Name</string>
+    <string-array name="choice">
+        <item>Author</item>
+        <item>ISBN Number</item>
+        <item>Book Name</item>
+    </string-array>
+</resources>

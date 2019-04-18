@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Main activity(screen) of the App -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/spinner"
+        android:layout_above ="@+id/search"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_text_field"
+        android:layout_margin="8dp"
+        android:dropDownWidth="fill_parent"
+        android:textAlignment="center"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:hint="Author Name/Title/ISBN Number"
+        android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:background="@drawable/rounded_text_field"
+        android:layout_centerInParent="true" />
+
+
+    <Button
+        android:text="CONTINUE"
+        android:background="@drawable/rounded_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@id/search"
+        android:onClick="getBook"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
