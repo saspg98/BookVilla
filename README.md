@@ -1,5 +1,5 @@
 # BookVilla
-Android Application using Retrofit and Google Books API 
+  Android Application using Retrofit and Google Books API 
 
 #### Development tools used
   - [x] Android
@@ -19,5 +19,5 @@ Android Application using Retrofit and Google Books API
   
   * Also, the time taken to search the book in cache/API is displayed in the above message.
   
-##### NOTE
+###### NOTE
 If project implemetation can be improved, always open for suggestions.
